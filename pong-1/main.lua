@@ -25,13 +25,13 @@
 -- a more retro aesthetic
 --
 -- https://github.com/Ulydev/push
-push = require 'push'
+push = require 'push' -- 'require' acceses a library. Like from __ import __.
 
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
 
-VIRTUAL_WIDTH = 432
-VIRTUAL_HEIGHT = 243
+VIRTUAL_WIDTH = 432 -- sets virtual resolution uing push while still operating withing the actual resolution
+VIRTUAL_HEIGHT = 243 -- low virtual resolution in high resolution makes it look like low resolution
 
 --[[
     Runs when the game first starts up, only once; used to initialize the game.
