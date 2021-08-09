@@ -57,7 +57,7 @@ end
 ]]
 function love.keypressed(key)
     -- keys can be accessed by string name
-    if key == 'escape' then
+    if key == 'escape' or key == 'tab' then
         -- function LÖVE gives us to terminate application
         love.event.quit()
     end
